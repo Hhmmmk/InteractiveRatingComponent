@@ -52,6 +52,7 @@ body {
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  background: #3e3e49;
 }
 
 .container1 {
@@ -62,7 +63,7 @@ body {
   border-radius: 1.5rem;
   padding: 2rem;
   background: var(--clr-darkBlue);
-  background-image: radial-gradient(circle at 50% 1%, var(--clr-darkBlue) 45%, var(--clr-vDarkBlue));
+  background-image: radial-gradient(circle at 40% -15%, var(--clr-darkBlue) 45%, var(--clr-vDarkBlue));
   -webkit-border-radius: 1.5rem;
   gap: 1.5rem;
   -moz-border-radius: 1.5rem;
@@ -200,4 +201,11 @@ body {
 .attribution {
   position: absolute;
   top: 98%;
+  font-size: 11px;
+  text-align: center;
+  color: var(--clr-white);
+}
+
+.attribution a {
+  color: var(--clr-orange);
 }
