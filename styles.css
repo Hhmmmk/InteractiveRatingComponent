@@ -52,7 +52,7 @@ body {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  background: #3e3e49;
+  background: #363738;
 }
 
 .container1 {
@@ -69,6 +69,7 @@ body {
   -moz-border-radius: 1.5rem;
   -ms-border-radius: 1.5rem;
   -o-border-radius: 1.5rem;
+  box-shadow: 10px 10px 10px 0 #0f11132c;
 }
 
 .star {
