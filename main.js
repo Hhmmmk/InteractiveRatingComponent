@@ -10,8 +10,6 @@ function removeSelected() {
 }
 
 
-
-
 buttons[0].addEventListener('click', () => {
   removeSelected();
   buttons[0].classList.add('selected');
@@ -47,17 +45,19 @@ buttons[4].addEventListener('click', () => {
   rating.innerHTML = rate;
 })
 
-// anong di ko nakikitang mali dito????
+submitRate.addEventListener('click', () => {
+  const card2Hidden = document.querySelector('.hide');
+  card2Hidden.classList.remove('hide');
+})
+
+
 
 
 // for (h = 0; h < buttons.length; h++) {
 //   buttons[h].addEventListener('click', () => {
 //     removeSelected();
-//     buttons[h].classList.add('selected');
 //   })
+//   buttons[h].classList.add('selected');
 // }
 
-submitRate.addEventListener('click', () => {
-  const card2Hidden = document.querySelector('.hide');
-  card2Hidden.classList.remove('hide');
-})
+
