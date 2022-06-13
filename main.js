@@ -10,6 +10,22 @@ function removeSelected() {
 }
 
 
+
+
+// Attempting to make this work instead of the one below but i don't know what i am doing wrong
+
+// for (j = 0; j < buttons.length; j++) {
+//   buttons[j].addEventListener('click', () => {
+//     removeSelected();
+//     buttons[j].classList.add('selected');
+//     rate = buttons[j].innerHTML;
+//     rating.innerHTML = rate;
+//   })
+// }
+
+
+
+
 buttons[0].addEventListener('click', () => {
   removeSelected();
   buttons[0].classList.add('selected');
