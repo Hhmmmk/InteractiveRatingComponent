@@ -21,6 +21,9 @@ for (let j = 0; j < buttons.length; j++) {
 
 
 submitRate.addEventListener('click', () => {
+  if (rating.innerHTML === '') {
+    rating.innerHTML = '1';
+  }
   const card2Hidden = document.querySelector('.hide');
   card2Hidden.classList.remove('hide');
 })
